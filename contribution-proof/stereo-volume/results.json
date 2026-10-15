@@ -1,0 +1,58 @@
+{
+  "upstream": "211e4b15f6ce4f34a6a9efbfff40590e43a68f77",
+  "sample_rate": 16000,
+  "samples": 25600,
+  "duration_seconds": 1.6,
+  "data_source": "synthetic sine waves",
+  "requested_gains": {
+    "left": 0,
+    "right": 1
+  },
+  "cases": {
+    "reference": {
+      "shape": [
+        25600,
+        2
+      ],
+      "rms_left": 0.08414287962320481,
+      "rms_right": 0.08414272373527275
+    },
+    "before-1": {
+      "shape": [
+        25600,
+        2
+      ],
+      "rms_left": 0.0,
+      "rms_right": 0.0
+    },
+    "after-1": {
+      "shape": [
+        25600,
+        2
+      ],
+      "rms_left": 0.0,
+      "rms_right": 0.08414272373527275
+    },
+    "before-256": {
+      "shape": [
+        25600,
+        2
+      ],
+      "rms_left": 0.0,
+      "rms_right": 0.08414272373527275
+    },
+    "after-256": {
+      "shape": [
+        25600,
+        2
+      ],
+      "rms_left": 0.0,
+      "rms_right": 0.08414272373527275
+    }
+  },
+  "scalar_before": "TypeError",
+  "scalar_after": [
+    -0.0,
+    3.308403299607618e-16
+  ]
+}
